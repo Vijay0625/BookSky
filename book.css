@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+  font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+}
+.nav{
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    background-color: #fd6569;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color:aqua;
+}
+.book-container button{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.add{
+    background-color: aqua;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 40px;
+}
+.layer1{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    display: none;
+}
+.layer2{
+    background-color: #fd6569;
+    color: black;
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 10px;
+    display: none;
+}
+.layer2 input{
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+
+}
+.layer2 textarea{
+    background-color: transparent;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+
+}
+.layer2 button{
+    background-color: aqua;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.layer2 input::placeholder{
+    color: black;
+}
+.layer2 textarea::placeholder{
+    color: black;
+}
+.layer2 h2{
+    color: aqua;
+}  
+.layer2 input:focus{
+    outline: none;
+}
+.layer2 textarea:focus{
+    outline: none;
+}

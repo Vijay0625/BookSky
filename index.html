@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ocean of books</title>
+    <link rel="stylesheet" href="./book.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+    <h1>Ocean Of Books</h1>
+    </div>  
+    <div class="container">
+        <div class="book-container">
+        <h2>Rich Dad Poor Dad</h2>
+        <h4>Robert</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae sapiente quam, autem magni architecto? Cumque, itaque fuga aspernatur saepe cupiditate vero! Deserunt quae porro qui est non? Dolores, esse!</p>
+        <button onclick="del(event)">Delete</button>
+    </div>
+    </div>
+         <div class="layer1"> </div>
+              <div class="layer2">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" id="t" placeholder="Title" >
+            <input type="text" id="a"  placeholder="Author" >
+            <textarea name="discription" id="disc" placeholder="Short Discription"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-book">CANCEL</button>
+        </form>
+             </div>
+    <button class="add" id="addlayer"> + </button>
+    <script src="./book.js"></script>
+</body>
+</html>
